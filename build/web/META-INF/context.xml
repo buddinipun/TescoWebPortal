@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/IEPTescoNew">
+    <!--<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/sdb" password="123" type="javax.sql.DataSource" url="jdbc:mysql://192.168.23.117/imp_tesco" username="192.168.23.118"/>-->
+    <!--<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/sdb" password="imp$321" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/imp_tesco" username="tesco"/>-->
+    <!--<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/sdb" password="iep123$" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/imp_tesco" username="tesco"/>-->
+    <!--<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/sdb" password="imp$321" type="javax.sql.DataSource" url="jdbc:mysql://203.189.64.220:3306/imp_tesco" username="tesco"/>-->
+    <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/sdb" password="123" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/imp_tesco" username="root"/>
+</Context>

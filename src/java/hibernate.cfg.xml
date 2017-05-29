@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/imp_tesco?zeroDateTimeBehavior=convertToNull</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">123</property>
+    
+        <!--    <property name="hibernate.connection.url">jdbc:mysql://203.189.64.220:3306/imp_tesco?zeroDateTimeBehavior=convertToNull</property>
+        <property name="hibernate.connection.username">tesco</property>
+        <property name="hibernate.connection.password">imp$321</property>-->
+    
+        <!--    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/imp_tesco?zeroDateTimeBehavior=convertToNull</property>
+        <property name="hibernate.connection.username">tesco</property>
+        <property name="hibernate.connection.password">imp$321</property>-->
+    
+        <mapping class="com.impression.hibe.model.ArtworkDownloadUser"/>
+        <mapping class="com.impression.hibe.model.Caretext"/>
+        <mapping class="com.impression.hibe.model.Company"/>
+        <mapping class="com.impression.hibe.model.CompanyBranch"/>
+        <mapping class="com.impression.hibe.model.ContactPerson"/>
+        <mapping class="com.impression.hibe.model.Corigin"/>
+        <mapping class="com.impression.hibe.model.Country"/>
+        <mapping class="com.impression.hibe.model.Customer"/>
+        <mapping class="com.impression.hibe.model.Dept"/>
+        <mapping class="com.impression.hibe.model.Eannotb"/>
+        <mapping class="com.impression.hibe.model.EannotbBackup"/>
+        <mapping class="com.impression.hibe.model.Fiber"/>
+        <mapping class="com.impression.hibe.model.Firew"/>
+        <mapping class="com.impression.hibe.model.Garmant"/>
+        <mapping class="com.impression.hibe.model.LabelGroup"/>
+        <mapping class="com.impression.hibe.model.LofEandata"/>
+        <mapping class="com.impression.hibe.model.LofGeneraldata"/>
+        <mapping class="com.impression.hibe.model.LofLabeltechnicaldata"/>
+        <mapping class="com.impression.hibe.model.LofSwingticletlabeldata"/>
+        <mapping class="com.impression.hibe.model.MenuItem"/>
+        <mapping class="com.impression.hibe.model.Reference"/>
+        <mapping class="com.impression.hibe.model.Secondorysizes"/>
+        <mapping class="com.impression.hibe.model.Sizes"/>
+        <mapping class="com.impression.hibe.model.SysUser"/>
+        <mapping class="com.impression.hibe.model.SysUserMenuItem"/>
+        <mapping class="com.impression.hibe.model.TechnicalTeam"/>
+        <mapping class="com.impression.hibe.model.Templatetb"/>
+        <mapping class="com.impression.hibe.model.UserType"/>
+        <mapping class="com.impression.hibe.model.WashSymbol"/>
+    </session-factory>
+</hibernate-configuration>
